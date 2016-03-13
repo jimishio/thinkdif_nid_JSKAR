@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productTitle"
+        android:textSize="@dimen/titleText"
+        android:id ="@+id/productPurchaseTitle"
+        android:layout_marginBottom="19dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/entertainment"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/productPurchaseImage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/productPurchasePrice"
+        android:text="@string/mrpPrice"
+        android:textSize="@dimen/subHeadText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cashOnDelivery"
+            android:textSize="@dimen/subHeadText"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/subHeadText"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="4dp"
+            android:text="@string/isAvailableString"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="normal"
+        android:hint="enter pincode here"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deliveryToPincode"
+                android:textSize="@dimen/subHeadText"
+                android:id="@+id/deliveryTo"
+                android:textStyle="normal"/>
+            <TextView
+                android:layout_toRightOf="@id/deliveryTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/subHeadText"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="4dp"
+                android:text="@string/businessDays"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daysString"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soldByString"
+        android:layout_marginBottom="16dp"
+        android:textSize="@dimen/subHeadText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/productPurchaseBtn"
+        android:layout_height="60dp"
+        android:text="Buy Now"
+        android:padding="8dp"
+        android:textSize="@dimen/titleText"/>
+</LinearLayout>

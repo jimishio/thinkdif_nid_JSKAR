@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+    <dimen name="buttonText">14sp</dimen>
+    <dimen name="menuText">14sp</dimen>
+    <dimen name="captionText">12sp</dimen>
+    <dimen name="bodyText">14sp</dimen>
+    <dimen name="subHeadText">16sp</dimen>
+    <dimen name="subTitleText">18sp</dimen>
+    <dimen name="titleText">20sp</dimen>
+    <dimen name="headLineText">24sp</dimen>
+    <dimen name="displayOneText">36sp</dimen>
+    <dimen name="displayTwoText">45sp</dimen>
+    <dimen name="displayThreeText">56sp</dimen>
+    <dimen name="displayFourText">112sp</dimen>
+</resources>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">hackathon</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcomeText">Welcome, User!</string>
+    <string name="titleText">Title</string>
+    <string name="descriptionText">Dismissible Card Description. Some longer Description goes here in the second line. </string>
+    <string name="dismissBtnText">Dismiss</string>
+    <string name="imageDescription">Image Description</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="addressText">Address Line 1 Goes Here, \nAddress Line 2 Goes Here, \nAddress Line 3 Goes Here,\nCity, State, Country - 123456</string>
+    <string name="addressTitle">Address</string>
+
+    <string name="phoneText">+919876543210</string>
+    <string name="phoneTitle">Phone</string>
+
+    <string name="emailText">email@domain.com</string>
+    <string name="emailTitle">Email</string>
+
+    <string name="websiteText">www.domain.com</string>
+    <string name="websiteTitle">Website</string>
+
+    <string name="fbText">www.facebook.com</string>
+    <string name="fbTitle">Facebook</string>
+
+    <string name="twitterText">www.twitter.com</string>
+    <string name="twitterTitle">Twitter</string>
+
+    <string name="gPlusText">www.plus.google.com</string>
+    <string name="gPlusTitle">Google Plus</string>
+
+    <string name="instagramText">www.instagram.com</string>
+    <string name="instagramTitle">Instagram</string>
+
+    <string name="genderTitle" />
+    <string name="ageGroupTitle" />
+    <string name="title_activity_profile">Profile</string>
+    <string name="done">done</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="ageGroup">
+        <item>Young</item>
+        <item>Adult</item>
+    </string-array>
+
+    <string name="icon_heart">&#xf004;</string>
+    <string name="icon_fb">&#xf230;</string>
+    <string name="icon_twitter">&#xf081;</string>
+    <string name="icon_gPlus">&#xf0d4;</string>
+    <string name="icon_instagram">&#xf16d;</string>
+    <string name="icon_website">&#xf0ac;</string>
+    <string name="icon_location">&#xf041;</string>
+    <string name="icon_phone">&#xf095;</string>
+    <string name="icon_email">&#xf0e0;</string>
+    <string name="action_profile">Profile</string>
+    <string name="interests">Interests</string>
+    <string name="interest1">Interest1</string>
+    <string name="news_label">News</string>
+    <string name="dummyNewsTitle">New title goes here</string>
+    <string name="dummyNewsDesc">2 Line description of news goes here... like this.</string>
+    <string name="productPrice">$191.00</string>
+    <string name="title_activity_product_info">Purchase</string>
+    <string name="productTitle">The Seal of Surya: The Legend of Ikshvaku</string>
+    <string name="mrpPrice">M. R. P. : $139.00</string>
+    <string name="cashOnDelivery">Cash on delivery</string>
+    <string name="isAvailableString">is available</string>
+    <string name="deliveryToPincode">Delivery to your pincode within</string>
+    <string name="businessDays">4 - 8 business</string>
+    <string name="daysString"> days.</string>
+    <string name="soldByString">Sold and fulfilled by WS Retail (4.3 out of 5 726 Ratings)</string>
+    <string name="title_activity_buy">Pay Now</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="ageGroup">Payment Options</string>
+    <string name="cod">Cash On Delivery</string>
+    <string name="netBanking">Net Banking</string>
+    <string name="debitCard">Debit Card</string>
+    <string name="creditCard">Credit Card</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deliverPackageBack">Wish to return package?</string>
+    <string name="promt_address">Address</string>
+
+    <string name="title_activity_success">Congratulations</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="successOrder">Successful!!</string>
+    <string name="orderPlaced">Order Placed!</string>
+    <string name="title_activity_wallet">My Wallet</string>
+    <string name="currentPoints">My Loyalty Points:</string>
+    <string name="title_activity_history_api">Purchased Items</string>
+
+    <string name="youtube_key">AIzaSyDn2em4Brd9YYVOqDlnOMnVejmLJdkYHSw</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="johnDoe">Hello, John Doe</string>
+    <string name="emailJohn">john@nidhackathon.edu</string>
+</resources>
